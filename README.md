@@ -35,6 +35,29 @@ npx ts-node scripts/QueryVote.ts <voter_address>
 
 ## Transaction Results
 
+### Give Voting Rights 
+**Command executed:**
+```bash
+npx ts-node scripts/GiveVotingRights.ts 0x4be7F17291d3194b33edE62D177B5294234d8AA2
+```
+
+**Details:**
+- Deployer/Chairperson: 0xcE292cB616aE5FcAB4Ea6fcbc7354a748dC00b30
+- Target address: 0x4be7F17291d3194b33edE62D177B5294234d8AA2
+- Contract address: 0x8481cff6926669af2964d6fa8c078793bb4c5d05
+- Transaction hash: 0x08c609a8f12af055c9822b4124489779c15c2bb6cbfab8b262b0ca1e3f1ab5fa
+- Confirmed in block: 7922028n
+
+**Initial voter status:**
+```json
+{
+  "weight": "0",
+  "voted": false,
+  "delegate": "0x0000000000000000000000000000000000000000",
+  "vote": "0"
+}
+```
+
 ### Cast Vote 
 **Command executed:**
 ```bash
